@@ -1,7 +1,7 @@
 import time
 import random
 import os
-from dataset_all import loadData
+from dataset import loadData
 from model_resnet import Model
 from torch.utils.data import DataLoader
 import matplotlib.pyplot as plt
